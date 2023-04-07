@@ -28,10 +28,14 @@ loss.py：包含自定义对比损失函数的实现。
 visualization.py:：包含使用t-SNE算法进行特征可视化的函数。这个文件中的函数将模型提取的特征降维为二维数据，然后使用matplotlib库绘制散点图，以直观地了解学习到的特征的分布情况。
 test.py:载入保存的模型，导入随机数据运行模型，进行识别测试
 通过这个项目，我们展示了如何使用对比学习预训练一个模型，然后在该模型的基础上训练一个分类器，以在MNIST数据集上进行数字分类。
+
+
 下面是运行结果图：
 
-![202347185153](https://user-images.githubusercontent.com/81458072/230603694-8fac03b6-67d4-4f45-ba9d-9535816aef55.jpg)
-![20234718523](https://user-images.githubusercontent.com/81458072/230603729-637f54cb-f3b3-4615-b9fa-ce6fc9d5ff47.jpg)
-！[202347185239](https://user-images.githubusercontent.com/81458072/230603762-b706272e-8d02-4137-b464-d2e3970a5992.jpg)
-![202347185329](https://user-images.githubusercontent.com/81458072/230603766-c6a7499e-6c63-4200-891c-a3d7cc75b17b.jpg)
+![202347185153](https://user-images.githubusercontent.com/81458072/230604180-d48c7444-7bb1-4010-a6b6-620175465624.jpg)
 
+![20234718523](https://user-images.githubusercontent.com/81458072/230604238-dec0a916-eefa-4178-a014-ff99e81ed9aa.jpg)
+
+![202347185239](https://user-images.githubusercontent.com/81458072/230604254-e5d37825-031a-4f48-9376-60fad94a2f75.jpg)
+
+![202347185329](https://user-images.githubusercontent.com/81458072/230604263-e90a0459-1391-4028-b459-ebc7953b2aaf.jpg)
